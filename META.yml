@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Module-Extract-DeclaredMinimumPerl
-version:            1.01
+version:            1.01_01
 abstract:           Extract the version of Perl a module declares
 author:
     - brian d foy <bdfoy@cpan.org>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    feature:       0
     perl:          5.006
     PPI:           0
     Test::More:    0

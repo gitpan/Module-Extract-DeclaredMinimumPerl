@@ -16,6 +16,7 @@ WriteMakefile(
 		'Test::More'   => '0',
 		'Test::Output' => '0',
 		'version'      => '0',
+		'feature'      => '0',
 		},
 
 	(
